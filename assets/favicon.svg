@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#2946da"/><text x="17" y="45" fill="#fff" font-size="45" font-family="Arial,sans-serif" font-weight="bold">p</text><circle cx="51" cy="44" r="5" fill="#ff9d70"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#f6f1e7"/>
+  <rect x="14" y="17" width="36" height="24" rx="9" fill="none" stroke="#637670" stroke-width="3"/>
+  <circle cx="25" cy="29" r="3" fill="#637670"/>
+  <circle cx="38" cy="29" r="3" fill="#637670"/>
+  <path d="M29 9h6v9" fill="none" stroke="#637670" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="35" cy="8" r="3" fill="#d9b79a"/>
+  <circle cx="22" cy="47" r="7" fill="#637670"/>
+  <circle cx="42" cy="47" r="7" fill="#637670"/>
+  <path d="M22 24h7a7 7 0 1 1 0 14h-2v10" fill="none" stroke="#637670" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35 40V24h8a6 6 0 0 1 0 12h-8m6 0 6 10" fill="none" stroke="#637670" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
