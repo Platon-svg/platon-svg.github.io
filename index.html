@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f3ef">
-  <meta name="description" content="Platon – цифровой дизайн, сайты и визуальные коммуникации. Портфолио проектов и контакты.">
-  <title>Platon – цифровой дизайнер</title>
+  <meta name="theme-color" content="#f3eee6">
+  <meta name="description" content="Platon Robotics — портфолио Карнаухова Платона Сергеевича, начинающего инженера-робототехника.">
+  <title>Platon Robotics — портфолио инженера-робототехника</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="preload" as="image" href="assets/workspace.webp">
+  <link rel="preload" as="image" href="assets/portrait.webp">
   <link rel="stylesheet" href="style.css">
   <script src="assets/qr-library.js" defer></script>
   <script src="app.js" defer></script>
@@ -15,76 +15,230 @@
 <body>
   <a class="skip-link" href="#main">Перейти к содержимому</a>
   <header class="site-header" id="top">
-    <div class="container nav-shell">
-      <a class="brand" href="#top" aria-label="Platon, на главную"><span class="brand-symbol" aria-hidden="true">p<span>·</span></span><span class="brand-name">platon<span>svg</span></span></a>
-      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="main-navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Platon Robotics, на главную">
+        <img src="assets/logo-pr.svg" class="brand-logo" width="46" height="46" alt="Логотип PR в виде мобильного робота">
+        <span class="brand-text"><strong>Platon Robotics</strong><small>portfolio / PR</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="main-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
       <nav class="main-nav" id="main-navigation" aria-label="Основное меню">
-        <a class="nav-link active" href="#home">Главная</a><a class="nav-link" href="#about">Обо мне</a><a class="nav-link" href="#works">Портфолио</a><a class="nav-link" href="#contact">Контакты</a>
+        <a class="nav-link active" href="#home">Главная</a>
+        <a class="nav-link" href="#about">Обо мне</a>
+        <a class="nav-link" href="#projects">Проекты</a>
+        <a class="nav-link" href="#contacts">Контакты</a>
       </nav>
-      <a class="nav-cta" href="#contact">Обсудить проект <span aria-hidden="true">↗</span></a>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero container" id="home" aria-labelledby="hero-title">
-      <div class="hero-main">
-        <div class="eyebrow"><span class="status-dot"></span> Открыт к новым проектам <span class="eyebrow-index">/ 2026</span></div>
-        <h1 id="hero-title">Дизайн,<br>который <em>чувствуют.</em></h1>
-        <p class="hero-desc">Привет, я Platon. Создаю цифровые продукты с ясной логикой, выразительным характером и вниманием к каждой детали.</p>
-        <div class="hero-actions"><a class="btn btn-primary" href="#works">Смотреть проекты <span aria-hidden="true">↗</span></a><a class="btn btn-text" href="#about">Познакомимся <span aria-hidden="true">↓</span></a></div>
-        <div class="hero-metrics" aria-label="Направления работы"><span>01 / UI & UX</span><span>02 / ВЕБ-ДИЗАЙН</span><span>03 / АЙДЕНТИКА</span></div>
-      </div>
-      <div class="hero-art" aria-label="Авторская векторная композиция с геометрическими фигурами">
-        <svg class="hero-svg" viewBox="0 0 600 630" role="img" aria-labelledby="abstractTitle" xmlns="http://www.w3.org/2000/svg">
-          <title id="abstractTitle">Абстрактная композиция из фигур кобальтового и оранжевого цветов</title>
-          <defs><linearGradient id="ball" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb985"/><stop offset=".52" stop-color="#ff6b36"/><stop offset="1" stop-color="#dc3f27"/></linearGradient><linearGradient id="blueDisc" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#87a3fa"/><stop offset=".4" stop-color="#3158e9"/><stop offset="1" stop-color="#081c89"/></linearGradient><filter id="shadow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="22"/></filter></defs>
-          <ellipse cx="302" cy="539" rx="200" ry="39" fill="#a2a5ae" opacity=".19" filter="url(#shadow)"/>
-          <g transform="translate(73 50) rotate(-17 230 270)"><rect x="137" y="112" width="330" height="400" rx="160" fill="#152fb0"/><rect x="156" y="132" width="291" height="360" rx="146" fill="url(#blueDisc)"/><path d="M303 140v344M164 308h282" stroke="#fff" stroke-opacity=".17" stroke-width="2"/><circle cx="302" cy="312" r="131" fill="#111e7e"/><circle cx="302" cy="312" r="114" fill="#e8edf9"/><circle cx="302" cy="312" r="96" fill="#c2d1ff"/><circle cx="302" cy="312" r="64" fill="#a7bdfd"/><path d="M226 256c41-64 122-48 149 10" fill="none" stroke="#f7f9fe" stroke-width="13" stroke-linecap="round" opacity=".55"/></g>
-          <circle cx="160" cy="193" r="95" fill="url(#ball)"/><path d="M107 139c33-27 67-28 98-10" stroke="#ffe1cf" stroke-width="17" stroke-linecap="round" fill="none" opacity=".55"/>
-          <path d="M406 54l39 86 94 7-71 60 23 96-84-49-80 51 22-93-68-65 94-7z" fill="#ffca7b" transform="rotate(7 406 180)"/>
-          <circle cx="497" cy="448" r="65" fill="#ff6a38"/><circle cx="497" cy="448" r="32" fill="#f9e7d8"/><path d="M102 456l54 14-47 35-10-19-21-6z" fill="#1d37c8"/><path d="M474 308h65M506 276v65" stroke="#1233c0" stroke-width="9" stroke-linecap="round"/>
-          <circle cx="85" cy="338" r="8" fill="#ff7849"/><circle cx="540" cy="354" r="8" fill="#1931b4"/>
-        </svg>
-        <div class="art-note">Форма следует<br><strong>за смыслом.</strong></div><span class="art-label">CREATIVE SPACE / 001</span>
-      </div>
-      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> Листайте вниз</a>
-    </section>
-
-    <section class="section about" id="about" aria-labelledby="about-title">
-      <div class="container">
-        <div class="section-kicker"><span>01 / ЗНАКОМСТВО</span><span>НЕМНОГО ОБО МНЕ</span></div>
-        <div class="about-layout">
-          <div class="about-photo-wrap"><img class="about-photo" src="assets/workspace.webp" width="1536" height="1024" loading="lazy" alt="Сгенерированная визуализация рабочего места дизайнера с ноутбуком и эскизами"><span class="photo-tag">ВИЗУАЛИЗАЦИЯ РАБОЧЕГО МЕСТА <span aria-hidden="true">↗</span></span></div>
-          <div class="about-copy"><h2 id="about-title">Люблю простые<br>решения <em>сложных</em><br>задач.</h2><p>Для меня хороший дизайн начинается с вопроса «зачем?». Я исследую задачу, ищу понятную структуру и превращаю идеи в интерфейсы, которыми приятно пользоваться. Мне близки чистая типографика, смелые композиции и продуманные мелочи.</p><p>Работаю над сайтами, цифровыми сервисами и визуальными системами. Каждый проект рассматриваю как возможность сделать взаимодействие человека с технологией чуть проще, удобнее и интереснее.</p><div class="about-skills"><span>Figma</span><span>HTML / CSS</span><span>JavaScript</span><span>Адаптивный дизайн</span></div><a class="inline-link" href="#contact">Расскажите о своей задаче <span aria-hidden="true">↗</span></a></div>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Портфолио / Мехатроника / Робототехника</p>
+          <h1>Карнаухов Платон Сергеевич</h1>
+          <p class="hero-role">Начинающий инженер-робототехник</p>
+          <p class="hero-text">Занимаюсь проектированием, сборкой, электромонтажом, наладкой и тестированием робототехнических и мехатронных систем. Мне интересны мобильные роботы, исполнительные механизмы, системы управления и полный производственный цикл — от идеи и компоновки до запуска и отладки.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Смотреть проекты</a>
+            <a class="btn btn-secondary" href="#contacts">Связаться</a>
+          </div>
+          <ul class="hero-facts" aria-label="Ключевые факты">
+            <li><strong>Направление:</strong> мехатроника и мобильная робототехника</li>
+            <li><strong>Опыт:</strong> учебные и производственные проекты, практика и работа техником</li>
+            <li><strong>Интересы:</strong> мобильные платформы, PLC, STM32, LabVIEW, автоматизация</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <div class="portrait-card">
+            <img src="assets/portrait.webp" width="900" height="1100" alt="Карнаухов Платон Сергеевич в лаборатории рядом с учебным мехатронным стендом">
+            <div class="portrait-note">
+              <span class="note-label">PR</span>
+              <p>Лабораторная и проектная работа: от схемы и механики до программирования и испытаний.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section portfolio" id="works" aria-labelledby="works-title">
+    <section class="section about" id="about">
       <div class="container">
-        <div class="section-kicker"><span>02 / ИЗБРАННОЕ</span><span>РАБОТЫ / 2024 – 2026</span></div>
-        <div class="section-heading"><h2 id="works-title">Проекты, за которые<br><em>говорят детали.</em></h2><p>Четыре концептуальных проекта: разные задачи, один подход – ясность, система и характер.</p></div>
-        <div class="filter-bar" role="group" aria-label="Фильтр проектов"><button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">Все проекты <span>04</span></button><button type="button" class="filter-btn" data-filter="website" aria-pressed="false">Сайты <span>02</span></button><button type="button" class="filter-btn" data-filter="branding" aria-pressed="false">Айдентика <span>01</span></button><button type="button" class="filter-btn" data-filter="app" aria-pressed="false">Интерфейсы <span>01</span></button></div>
-        <div class="projects" id="projects-grid">
-          <article class="project" data-category="website"><div class="project-cover"><img src="assets/project-atelier.svg" loading="lazy" width="800" height="620" alt="Концепт сайта архитектурной студии: бежевые блоки, крупная типографика и фотографическая композиция"></div><div class="project-meta"><div><h3>Atelier Forma</h3><p>Сайт архитектурной студии</p></div><span class="project-n">01 / 04</span></div></article>
-          <article class="project" data-category="branding"><div class="project-cover"><img src="assets/project-terra.svg" loading="lazy" width="800" height="620" alt="Айдентика Terra: темно-зелёная этикетка и упаковка с оранжевыми и молочными акцентами"></div><div class="project-meta"><div><h3>Terra Coffee</h3><p>Брендинг и упаковка</p></div><span class="project-n">02 / 04</span></div></article>
-          <article class="project" data-category="app"><div class="project-cover"><img src="assets/project-pulse.svg" loading="lazy" width="800" height="620" alt="Макет мобильного приложения Pulse с диаграммами активности на тёмно-фиолетовом фоне"></div><div class="project-meta"><div><h3>Pulse</h3><p>UI / UX приложения</p></div><span class="project-n">03 / 04</span></div></article>
-          <article class="project" data-category="website"><div class="project-cover"><img src="assets/project-orbit.svg" loading="lazy" width="800" height="620" alt="Концепт образовательного сайта Orbit с крупной типографикой и синими трёхмерными сферами"></div><div class="project-meta"><div><h3>Orbit Academy</h3><p>Образовательная платформа</p></div><span class="project-n">04 / 04</span></div></article>
+        <div class="section-head">
+          <p class="section-kicker">Обо мне</p>
+          <h2>Коротко о профиле</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Я обучаюсь по направлению «Мехатроника и мобильная робототехника» в СПБ ГБПОУ «АИТУ» на факультете «Электроника и машиностроение». В учебных и производственных проектах я участвовал на всех этапах: подбирал и монтировал узлы, занимался электромонтажом, механической сборкой, программированием, пуско-наладкой и итоговым тестированием.</p>
+            <p>Во время практик и работы техником в ООО «СТЦ» получил опыт работы с мобильными роботами, мехатронными системами, контроллерами и инструментами. Мне нравится разбираться в устройстве системы целиком и доводить решение до рабочего состояния, а не только собирать отдельные части.</p>
+          </div>
+          <div class="about-cards">
+            <article class="info-card">
+              <h3>Образование</h3>
+              <p>СПБ ГБПОУ «АИТУ»</p>
+              <p>Направление: «Мехатроника и мобильная робототехника»</p>
+            </article>
+            <article class="info-card">
+              <h3>Опыт</h3>
+              <p>Учебные и производственные практики по мобильным роботам и мехатронным системам.</p>
+              <p>Работа техником в ООО «СТЦ».</p>
+            </article>
+            <article class="info-card">
+              <h3>Личные качества</h3>
+              <p>Ответственность, внимательность к деталям, стремление к развитию, логическое мышление и готовность доводить проект до результата.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="skills-grid" aria-label="Навыки и инструменты">
+          <article class="skill-block">
+            <h3>Профессиональные навыки</h3>
+            <ul>
+              <li>Монтаж и наладка мобильных и мехатронных систем</li>
+              <li>Чтение технической документации</li>
+              <li>Поиск и устранение дефектов в робототехнических устройствах</li>
+              <li>Работа с инструментом, измерительными приборами и станками</li>
+            </ul>
+          </article>
+          <article class="skill-block">
+            <h3>Программирование и ПО</h3>
+            <ul>
+              <li>STM32CubeIDE, STM32CubeMX, Arduino IDE</li>
+              <li>LabVIEW, TIA Portal, Keil uVision</li>
+              <li>MATLAB, Mathcad, PyCharm, Visual Studio, GCC, Clang</li>
+              <li>Компас 3D, AutoCAD, nanoCAD, Microsoft Office</li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section contact" id="contact" aria-labelledby="contact-title">
+    <section class="section projects" id="projects">
       <div class="container">
-        <div class="section-kicker"><span>03 / СВЯЗАТЬСЯ</span><span>ЕСТЬ ИДЕЯ?</span></div>
-        <div class="contact-layout"><div class="contact-intro"><h2 id="contact-title">Давайте создадим<br><em>что-то классное.</em></h2><p>Расскажите, над чем работаете. Обсудим задачу, сроки и формат сотрудничества.</p><a class="contact-email" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a><a class="contact-phone" href="tel:+79991234567">+7 (999) 123-45-67</a><div class="contact-disclaimer">Контактные данные демонстрационные. Замените их своими перед публикацией.</div></div>
-          <form class="contact-form" id="contact-form" novalidate><h3>Напишите мне</h3><label for="full-name">Ваше имя <span aria-hidden="true">*</span></label><input type="text" id="full-name" name="name" placeholder="Как к вам обращаться" autocomplete="name" maxlength="90" required><label for="email">Электронная почта <span aria-hidden="true">*</span></label><input type="email" id="email" name="email" placeholder="name@example.com" autocomplete="email" maxlength="150" required><label for="message">Ваше сообщение <span aria-hidden="true">*</span></label><textarea id="message" name="message" placeholder="Коротко опишите вашу идею..." rows="5" maxlength="3000" minlength="10" required></textarea><div class="form-bottom"><p>Нажимая кнопку, вы откроете письмо в вашей почтовой программе.</p><button class="btn btn-primary submit" type="submit">Подготовить письмо <span aria-hidden="true">↗</span></button></div><p id="form-status" role="status" class="form-status" aria-live="polite"></p><button type="button" class="copy-message" id="copy-message" hidden>Скопировать текст письма</button><textarea class="copy-fallback" id="copy-fallback" readonly hidden aria-label="Текст подготовленного письма"></textarea></form>
+        <div class="section-head">
+          <p class="section-kicker">Портфолио</p>
+          <h2>Проекты и практические работы</h2>
+          <p class="section-intro">Ниже — часть работ, в которых я участвовал на всех этапах: от подготовки конструкции и сборки до настройки, испытаний и демонстрации результата.</p>
         </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/project-mobile.webp" width="1200" height="900" alt="Мобильный робот с колесной платформой и захватом">
+            <div class="project-body">
+              <h3>Мобильный робот с захватным механизмом</h3>
+              <p>Компактная мобильная платформа с механическим захватом для отработки задач перемещения, захвата и базового автономного поведения. Я участвовал в проектировании конструкции, сборке рамы, монтаже компонентов, подключении исполнительных узлов и последующей отладке.</p>
+              <span class="project-tag">Мобильная робототехника</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="assets/project-arena.webp" width="1200" height="900" alt="Боевой робот на выставочной площадке">
+            <div class="project-body">
+              <h3>Соревновательный робот с активным модулем</h3>
+              <p>Проект робота для демонстрационного и соревновательного формата. В рамках работы занимался изготовлением элементов корпуса, сборкой силовой части, монтажом оборудования, подгонкой узлов, общим тестированием и подготовкой конструкции к эксплуатации.</p>
+              <span class="project-tag">Инженерный проект</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="assets/project-shell.webp" width="1200" height="900" alt="Корпус и верхняя часть робототехнической конструкции в процессе изготовления">
+            <div class="project-body">
+              <h3>Корпус и механические узлы робототехнической системы</h3>
+              <p>Изготовление и доводка механической части, несущего корпуса и компоновочных элементов. Участвовал в производственном цикле от подготовки деталей и подгонки до сборки, проверки прочности и финальной сборочной стыковки с остальными подсистемами.</p>
+              <span class="project-tag">Механика и сборка</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="assets/project-garage.webp" width="1200" height="900" alt="Демонстрация инженерного проекта на выездной площадке">
+            <div class="project-body">
+              <h3>Демонстрация инженерных решений и выездные испытания</h3>
+              <p>Участие в демонстрации проекта в реальных условиях: подготовка оборудования, монтаж, подключение, контроль работы механизмов и сопровождение показа. Такой формат помогал не только собрать систему, но и убедиться в её работоспособности вне лаборатории.</p>
+              <span class="project-tag">Испытания и демонстрация</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Опыт</p>
+          <h2>Практика и профессиональный путь</h2>
+        </div>
+        <div class="timeline-list">
+          <div class="timeline-item"><span class="time">02.02.24 — 24.02.24</span><p>Учебная практика по монтажу и наладке мобильного робота.</p></div>
+          <div class="timeline-item"><span class="time">11.04.24 — 25.04.24</span><p>Учебная практика по программированию мобильного робота на LabVIEW.</p></div>
+          <div class="timeline-item"><span class="time">2024 — 2026</span><p>Серия учебных и производственных практик по монтажу, программированию, пуско-наладке, ремонту и оптимизации мехатронных систем.</p></div>
+          <div class="timeline-item"><span class="time">25.06.25 — 30.03.26</span><p>Работа в ООО «СТЦ» на должности техника.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacts">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-head small">
+            <p class="section-kicker">Контакты</p>
+            <h2>Связаться со мной</h2>
+          </div>
+          <p class="contact-text">Готов к учебным, инженерным и проектным задачам, связанным с мехатроникой, мобильной робототехникой и автоматизацией. Для связи можно использовать форму ниже или контактные данные.</p>
+          <ul class="contact-list">
+            <li><a href="mailto:platon.robotics.portfolio@mail.ru">platon.robotics.portfolio@mail.ru</a></li>
+            <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
+            <li><a href="https://github.com/Platon-svg" target="_blank" rel="noopener">github.com/Platon-svg</a></li>
+            <li><a href="https://t.me/platon_robotics" target="_blank" rel="noopener">t.me/platon_robotics</a></li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3>Форма обратной связи</h3>
+          <label for="full-name">Имя</label>
+          <input type="text" id="full-name" name="name" placeholder="Ваше имя" autocomplete="name" maxlength="60" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.ru" autocomplete="email" required>
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="5" placeholder="Кратко опишите ваш вопрос или предложение" minlength="10" required></textarea>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Отправить</button>
+            <button class="btn btn-secondary" type="button" id="copy-message" hidden>Скопировать текст</button>
+          </div>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+          <textarea class="copy-fallback" id="copy-fallback" hidden></textarea>
+        </form>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><div><a class="brand footer-brand" href="#top"><span class="brand-symbol" aria-hidden="true">p<span>·</span></span><span class="brand-name">platon<span>svg</span></span></a><p>© 2026 Platon. Сайт-портфолио.</p></div><div class="footer-right"><div class="social-links" aria-label="Социальные сети"><a href="https://github.com/Platon-svg" target="_blank" rel="noopener noreferrer" aria-label="GitHub Platon-svg" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.64c.55.1.76-.24.76-.54v-2.1c-3.1.68-3.75-1.32-3.75-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.7.08-.68.08-.68 1.12.08 1.72 1.15 1.72 1.15.99 1.7 2.6 1.21 3.24.93.1-.72.39-1.21.72-1.49-2.48-.28-5.1-1.24-5.1-5.5 0-1.22.43-2.2 1.15-2.97-.12-.28-.5-1.41.11-2.93 0 0 .94-.3 3.05 1.14A10.64 10.64 0 0 1 12 6.1c.95 0 1.88.13 2.76.37 2.11-1.44 3.04-1.14 3.04-1.14.61 1.52.23 2.65.12 2.93.72.77 1.15 1.75 1.15 2.96 0 4.28-2.62 5.22-5.12 5.5.4.35.77 1.03.77 2.09v3.1c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg></a><a href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram" title="Telegram"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.4 3.6 2.9 10.2c-1.2.49-1.19 1.17-.22 1.46l4.5 1.41 10.4-6.6c.49-.3.94-.14.57.2l-8.43 7.62-.31 4.72c.46 0 .66-.21.91-.46l2.2-2.14 4.57 3.37c.84.46 1.44.22 1.65-.78l3.01-14.15c.31-1.25-.48-1.82-1.35-1.42Z"/></svg></a><a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer" aria-label="Behance" title="Behance"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.58 11.21c1.11-.5 1.56-1.31 1.56-2.49 0-2.39-1.78-2.95-3.8-2.95H.75v12.51h6.78c2.4 0 4.28-1.15 4.28-3.63 0-1.59-.75-2.74-2.23-3.44ZM3.6 8.11h3.17c1.2 0 1.65.48 1.65 1.25 0 .89-.59 1.25-1.57 1.25H3.6v-2.5Zm3.34 7.77H3.6v-3.01h3.38c1.25 0 1.96.5 1.96 1.53 0 1.07-.78 1.48-2 1.48Zm8.32-9.58h6.08v1.45h-6.08V6.3Zm3.08 2.44c-2.82 0-4.7 2.1-4.7 4.83 0 2.89 1.76 4.97 4.7 4.97 2.12 0 3.71-.96 4.42-2.98h-2.44c-.26.65-1 1.01-1.9 1.01-1.34 0-2.06-.86-2.14-2.16h6.6c.22-3.35-1.57-5.67-4.54-5.67Zm-2.05 3.96c.16-1.1.85-1.78 2.05-1.78 1.1 0 1.84.7 1.91 1.78h-3.96Z"/></svg></a></div><button class="qr-open" type="button" id="qr-open" title="Показать QR-код сайта">QR-код сайта <span aria-hidden="true">↗</span></button><a class="up-link" href="#top">Наверх ↑</a></div></div></footer>
-  <dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-title"><button class="qr-close" type="button" aria-label="Закрыть QR-код">×</button><h2 id="qr-title">QR-код сайта</h2><p>Отсканируйте код, чтобы открыть страницу на другом устройстве. После публикации QR автоматически укажет на реальный адрес сайта.</p><div id="qr-graphic" class="qr-graphic" role="img" aria-label="QR-код текущего адреса сайта"></div><div class="qr-url" id="qr-url"></div><button class="btn btn-primary qr-download" type="button" id="download-qr">Сохранить QR-код (SVG) <span aria-hidden="true">↓</span></button></dialog>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <img src="assets/logo-pr.svg" class="brand-logo" width="40" height="40" alt="">
+          <span class="brand-text"><strong>Platon Robotics</strong><small>portfolio / PR</small></span>
+        </a>
+        <p class="footer-copy">© 2026 Карнаухов Платон Сергеевич. Портфолио начинающего инженера-робототехника.</p>
+      </div>
+      <div class="footer-links">
+        <a class="footer-pill" href="mailto:platon.robotics.portfolio@mail.ru">Email</a>
+        <a class="footer-pill" href="tel:+79991234567">Телефон</a>
+        <a class="social-link" href="https://github.com/Platon-svg" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5A12 12 0 0 0 8.2 23.9c.6.1.8-.2.8-.6v-2.3c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.3 1.9 1.3 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.6.1-3.2 0 0 1-.3 3.4 1.2a11.7 11.7 0 0 1 6.2 0C18 5.3 19 5.6 19 5.6c.7 1.6.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a class="social-link" href="https://t.me/platon_robotics" target="_blank" rel="noopener" aria-label="Telegram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.8 15.6 9.4 21c.6 0 .9-.3 1.3-.6l2.9-2.8 6-4.4c1.1-.8-.2-1.2-1.7-.7l-7.4 2.3-3.2-1c-.7-.2-.7-.7.2-1.1L20.2 8c.6-.2 1.1.1.9 1.1l-2.2 10.4c-.2.7-.6.9-1.3.6l-3.6-2.7-1.8 1.7c-.2.2-.4.4-.8.4l.3-4.2Z"/></svg>
+          <span>Telegram</span>
+        </a>
+        <button class="qr-button" id="qr-open" type="button">QR-код сайта</button>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="qr-dialog" id="qr-dialog">
+    <button class="qr-close" type="button" aria-label="Закрыть">×</button>
+    <h2>QR-код сайта</h2>
+    <p>QR-код ведёт на опубликованную версию сайта и может быть использован в отчёте для быстрого перехода.</p>
+    <div class="qr-graphic" id="qr-graphic"></div>
+    <p class="qr-url" id="qr-url"></p>
+    <button class="btn btn-primary" type="button" id="download-qr">Скачать QR в SVG</button>
+  </dialog>
 </body>
 </html>
